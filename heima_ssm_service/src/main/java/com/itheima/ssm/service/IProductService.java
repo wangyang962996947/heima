@@ -1,0 +1,1 @@
+package com.itheima.ssm.service;import com.itheima.ssm.domain.Product;import	java.util.List;/** * @auther wangyang * @date 2019/10/20 10:21 PM */public interface IProductService {    List<Product> findAll() throws Exception;    void save(Product product) throws Exception;}

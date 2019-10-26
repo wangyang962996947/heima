@@ -1,0 +1,1 @@
+package com.itheima.ssm.service;import com.itheima.ssm.domain.SysLog;import java.util.List;/** * @auther wangyang * @date 2019/10/25 10:04 PM */public interface ISysLogService {    void save(SysLog sysLog) throws Exception;    List<SysLog> findAll() throws Exception;}
